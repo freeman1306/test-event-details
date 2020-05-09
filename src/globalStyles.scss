@@ -1,0 +1,49 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.link {
+    color: #238cbb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.txtC {
+    text-align: center;
+}
+
+.txtR {
+    text-align: right;
+}
+
+.txtL {
+    text-align: left;
+}
+
+.row {
+    display: flex;
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 628px) {
+    .row {
+        flex-wrap: wrap;
+
+    }
+}

@@ -1,0 +1,104 @@
+.button {
+    cursor: pointer;
+    border-radius: 35px;
+    display: flex;
+    border: none;
+    margin: 0 auto;
+    font-size: 1rem;
+    background: transparent;
+    align-items: center;
+}
+
+
+
+.buttonPrimary {
+    background-color: #238cbb;
+    color: white;
+    padding: 10px 20px;
+}
+
+.buttonRound {
+    border-radius: 6px;
+}
+
+
+.buttonCircle {
+    border-radius: 50px;
+}
+
+
+.buttonClose {
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+
+    .iconClose {
+        width: 42px;
+        height: 42px;
+    }
+}
+
+
+.buttonSuccess {
+    position: relative;
+    padding-left: 46px;
+
+    .iconSuccess {
+        width: 20px;
+        left: 20px;
+        height: 20px;
+        position: absolute;
+    }
+
+}
+
+
+.buttonDots {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 48px;
+    height: 48px;
+
+    &:active {
+        background-color: rgba(182, 182, 182, 0.561);
+    }
+
+    .iconDots {
+        width: 14px;
+        height: 14px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+
+.buttonBack {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    justify-content: space-between;
+    width: 185px;
+
+    .iconBack {
+        width: 25px;
+        height: 25px;
+
+    }
+}
+
+
+@media screen and (max-width: 628px) {
+    .buttonClose {
+        display: none;
+    }
+
+    .buttonBack {
+        display: flex;
+    }
+}

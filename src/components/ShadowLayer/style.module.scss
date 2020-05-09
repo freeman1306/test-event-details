@@ -1,0 +1,20 @@
+.shadowLayer {
+    background-color: rgba(37, 33, 33, 0.705);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+
+@media screen and (max-width: 628px) {
+    .shadowLayer {
+        padding: 79px 20px;
+        background-color: rgba(125, 125, 125, 0.17);
+    }
+}
